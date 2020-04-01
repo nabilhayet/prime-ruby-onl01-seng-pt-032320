@@ -2,7 +2,7 @@ def prime?(num)
   val=""
   count=0
 if (num==0)
-	puts "0 is not prime"
+	return false
 else
 	 i=2
 	while(i<num)
