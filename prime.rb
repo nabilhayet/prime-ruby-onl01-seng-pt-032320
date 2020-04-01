@@ -12,7 +12,7 @@ else
 		i+=1
 	end
 end
-	if count>1
+	if count>=1
 		return false
 	else
 		return true
