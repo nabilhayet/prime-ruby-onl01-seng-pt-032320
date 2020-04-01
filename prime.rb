@@ -1,7 +1,7 @@
 def prime?(num)
   val=""
   count=0
-if (num==0)
+if (num<2)
 	return false
 else
 	 i=2
